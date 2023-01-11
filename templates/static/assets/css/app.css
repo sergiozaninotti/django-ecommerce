@@ -1,0 +1,69 @@
+@media (max-width: 770px){
+    h4{
+        font-size: 85%;
+    }
+    h6{
+        font-size: 90%;
+    }
+   .navbar .navbar-brand img{
+        max-width: 200px;
+    }
+    .category-menu a{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 770px){
+
+/* COLORS */
+
+.bg-dark{
+    background-color: #000 !important;
+}
+
+/* NAVBAR */
+.navbar{
+    height: 90px;
+    padding-left: 5rem;
+}
+
+.navbar .nav-link{
+    line-height: 1.2;
+    font-size: 0.95rem;
+}
+
+.navbar .navbar-brand img{
+    max-width: 400px;
+    max-height: 80px;
+}
+
+.category-menu{
+    height: 40px;
+    width: 100%;
+}
+.category-menu a,
+.category-menu a:hover{
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+#home-hero-banner .swiper-container{
+    max-height: 500px;
+}
+
+#home-hero-sub-banner{
+    width: 100vw;
+    height: 100px;
+}
+
+.home-swiper{
+    min-height: 450px;
+}
+
+.home-swiper .card .card-img-top{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+}
